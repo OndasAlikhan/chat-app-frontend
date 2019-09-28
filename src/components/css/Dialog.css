@@ -1,0 +1,37 @@
+.dialog-container{
+    
+    padding: 5px;
+    
+    
+}
+.dialog-icon{
+float: left;
+
+}
+
+.dialog-title{
+    grid-area: title;
+    width: 60vh;
+}
+
+.dialog-time{
+    
+    width: 80px;
+    grid-area: time;
+    float: right;
+}
+
+.dialog-lastMessage{
+    grid-area: lastMes;
+    width: 100px;;
+    overflow: hidden;
+    width: 60vh;
+}
+
+.dialog-unreadMessages{
+    
+    margin: 0 auto;
+    float: right;
+    grid-area: unreadMes;
+    width: 80px;
+}
